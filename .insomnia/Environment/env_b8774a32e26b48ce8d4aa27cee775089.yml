@@ -1,0 +1,14 @@
+_id: env_b8774a32e26b48ce8d4aa27cee775089
+type: Environment
+parentId: env_442e620cd0df294ef195106fd496699adc58f3b9
+modified: 1671716779161
+created: 1671716763107
+name: production
+data:
+  baseURL: https://u89ygb4ubg.execute-api.us-east-1.amazonaws.com
+dataPropertyOrder:
+  "&":
+    - baseURL
+color: "#67cb6e"
+isPrivate: false
+metaSortKey: 1671716714995

@@ -1,0 +1,30 @@
+_id: req_20520528d9af4179bed565eb116923fe
+type: Request
+parentId: wrk_9d8f334203a7428b81e808cedb363bd4
+modified: 1671716803686
+created: 1671469906552
+url: "{{ _.baseURL }}/dev/generateCertificate    "
+name: Create Certificate
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id": "{% uuid 'v4' %}",
+    	"name": "Arthur Totola Pedroti",
+    	"grade": "10"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1671469906552
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
