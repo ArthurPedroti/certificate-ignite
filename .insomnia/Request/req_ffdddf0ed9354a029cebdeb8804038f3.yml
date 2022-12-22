@@ -1,0 +1,21 @@
+_id: req_ffdddf0ed9354a029cebdeb8804038f3
+type: Request
+parentId: wrk_9d8f334203a7428b81e808cedb363bd4
+modified: 1671716833163
+created: 1671244249449
+url: "{{ _.baseURL }}/notifications"
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1660456922454
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

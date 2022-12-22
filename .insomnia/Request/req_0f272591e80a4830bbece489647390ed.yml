@@ -1,0 +1,30 @@
+_id: req_0f272591e80a4830bbece489647390ed
+type: Request
+parentId: wrk_9d8f334203a7428b81e808cedb363bd4
+modified: 1671716829568
+created: 1663631645019
+url: "{{ _.baseURL }}/notifications"
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"recipientId": "{% uuid 'v4' %}",
+    	"content": "asd34",
+    	"category": "asdas"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1663631645019
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
